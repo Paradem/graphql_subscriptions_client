@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-require_relative "lib/graphql_subscriptions_client/version"
+require_relative "lib/graphql_subscriptions/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "graphql_subscriptions_client"
-  spec.version = GraphqlSubscriptionsClient::VERSION
+  spec.name = "graphql_subscriptions"
+  spec.version = GraphqlSubscriptions::VERSION
   spec.authors = ["psguazz"]
   spec.email = ["p.sguazz@gmail.com"]
 
   spec.summary = "WebSocket client to subscribe to GraphQL from Ruby"
-  spec.homepage = "https://github.com/Paradem/graphql_subscriptions_client"
+  spec.homepage = "https://github.com/Paradem/graphql_subscriptions"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/Paradem/graphql_subscriptions_client"
-  spec.metadata["changelog_uri"] = "https://github.com/Paradem/graphql_subscriptions_client/blob/main/README.md"
+  spec.metadata["source_code_uri"] = "https://github.com/Paradem/graphql_subscriptions"
+  spec.metadata["changelog_uri"] = "https://github.com/Paradem/graphql_subscriptions/blob/main/README.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

@@ -5,9 +5,9 @@ require "uri"
 require "securerandom"
 require "json"
 
-require_relative "graphql_subscriptions_client/version"
+require_relative "graphql_subscriptions/version"
 
-module GraphqlSubscriptionsClient
+module GraphqlSubscriptions
   attr_reader :url, :thread
   attr_reader :subscription_query
 

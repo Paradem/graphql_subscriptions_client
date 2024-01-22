@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    graphql_subscriptions_client (0.1.0)
+    graphql_subscriptions (0.1.0)
       permessage_deflate
       websocket-driver
 
@@ -62,7 +62,7 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
-  graphql_subscriptions_client!
+  graphql_subscriptions!
   minitest (~> 5.16)
   rake (~> 13.0)
   standard (~> 1.3)
