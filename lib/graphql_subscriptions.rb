@@ -59,7 +59,7 @@ module GraphqlSubscriptions
         case json["type"]
         when "connection_ack"
           send(JSON.dump(subscription))
-        when "data"
+        when "data", "next"
           @message_callback.call(json["payload"]["data"])
         end
       end
